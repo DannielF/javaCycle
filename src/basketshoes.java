@@ -2,79 +2,47 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class basketshoes {
-  public static ArrayList<String> casos_marcas(){
+  public static ArrayList<String> marcas(ArrayList<String> mk){
     ArrayList<String> marks = new ArrayList<>();
 
-    String[] marcas = {"nike","adidas","rebook", "rebook", "rebook", "nike", "adidas" , "rebook", "rebook", "rebook"};
-
-    for(int i=0; i < marcas.length; i++){
-      if(!marks.contains(marcas[i])){
-        marks.add(marcas[i]);
+    for(int i=0; i < mk.size(); i++){
+      if(!marks.contains(mk.get(i))){
+        marks.add(mk.get(i));
       }
     }
     return marks;
   }
 
-  public static ArrayList<Integer> casos_marcas_faltantes(){
+  public static ArrayList<Integer> marcas_faltantes(ArrayList<Integer> nb, ArrayList<String> srt, String m){
     ArrayList<Integer> marksOutStock = new ArrayList<>();
 
-    Integer listIndex[] = {1,3,6,8};
-    String marks1[] = {"nike","adidas","rebook", "rebook", "rebook", "nike", "adidas", "rebook", "rebook", "rebook"};
-    String mark2 = "rebook";
-
-    for(int i=0; i < listIndex.length; i++){
-      if(marks1[listIndex[i]].equals(mark2)){
-        marksOutStock.add(listIndex[i]);
+    for(int i=0; i < nb.size(); i++){
+      if(srt.get(nb.get(i)).equals(m)){
+        marksOutStock.add(nb.get(i));
       }
     }
     return marksOutStock;
   }
 
-  public static ArrayList<Integer> casos_zapatillas_faltantes(){
-    ArrayList<Integer> shoesOutStock = new ArrayList<>();
+  public static ArrayList<String> zapatillas_faltantes(ArrayList<String> ar1, ArrayList<String> ar2){
+    ArrayList<String> shoesOutStock = new ArrayList<>();
 
-    Integer arr1[] =  {3,5,7,10,15,16};
-    Integer arr2[] = {4,10,5,8};
-
-    Integer i=0;
-    do{
-      Integer ele = arr1[i];
-      Arrays.sort(arr2);
-      Integer abs = Arrays.binarySearch(arr2, ele);
-      if (abs<=-1) {
-        shoesOutStock.add(ele);
+    for(int i=0; i < ar1.size(); i++){
+      if(!ar2.contains(ar1.get(i))){
+        shoesOutStock.add(ar1.get(i));
       }
-      i++;
-    }while(i<arr1.length);
-
+    }
     return shoesOutStock;
   }
 
-  public static Integer casos_zapatillas_disponibles_para_cambio(){
+  public static Integer zapatillas_disponibles_para_cambio(ArrayList<String> a1, ArrayList<String> a2){
     Integer shoesToChange = 0;
 
-    Integer arr1[] =  {3,5,7,10,15,16};
-    Integer arr2[] = {4,10,5,8};
-
-    Integer i=0;
-    do{
-      Integer ele = arr2[i];
-      Arrays.sort(arr1);
-      Integer abs = Arrays.binarySearch(arr1, ele);
-      if (abs<=-1) {
+    for(int i=0; i < a2.size(); i++){
+      if(!a1.contains(a2.get(i))){
         shoesToChange++;
       }
-      i++;
-    }while(i<arr2.length);
-
+    }
     return shoesToChange;
   }
-
-  public static void main(String[] args) {
-    System.out.println(casos_marcas());
-    System.out.println(casos_marcas_faltantes());
-    System.out.println(casos_zapatillas_faltantes());
-    System.out.println(casos_zapatillas_disponibles_para_cambio());
-  }
 }
-
