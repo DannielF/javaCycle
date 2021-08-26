@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-
 public class basketshoes {
   public static ArrayList<String> marcas(ArrayList<String> mk){
     ArrayList<String> marks = new ArrayList<>();
