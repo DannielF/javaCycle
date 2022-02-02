@@ -17,6 +17,6 @@ These are the task that we need to do:
 
 The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `Workshop_Java_objects/src`: the folder to maintain sources
+- `Workshop_Java_objects/lib`: the folder to maintain dependencies
 
