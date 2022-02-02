@@ -54,14 +54,6 @@ class Fruit {
     }
 
     /**
-     * Setter
-     * @see #setAverageWeight(float) - Set a new average weight 
-     * */
-    public void setAverageWeight(float averageWeight) {
-        this.averageWeight = averageWeight;
-    }
-
-    /**
      * Getter
      * @see #getPrice() - return price of the fruit
      * */
