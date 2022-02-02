@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/javaCycle.iml" filepath="$PROJECT_DIR$/javaCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshop_Java_objects/Workshop_Java_objects.iml" filepath="$PROJECT_DIR$/Workshop_Java_objects/Workshop_Java_objects.iml" />
     </modules>
   </component>
 </project>
