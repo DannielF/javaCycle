@@ -1,12 +1,11 @@
 import java.time.LocalDate;
-import java.util.ArrayList;
 
 /**
  * defining the state and methods for a bank account
  * @version 1.0.0
  * @author Daniel Granados
  */
-class bankAccount {
+class BankAccount {
     private int accountNumber;
     protected boolean activated;
     private LocalDate creationDate;
@@ -20,7 +19,7 @@ class bankAccount {
      * @param amount money available
      * @param creationDate the day the account was created
      * */
-    public bankAccount(int accountNumber, boolean activated, LocalDate creationDate, double amount) {
+    public BankAccount(int accountNumber, boolean activated, LocalDate creationDate, double amount) {
         this.accountNumber = accountNumber;
         this.activated = activated;
         this.creationDate = creationDate;
