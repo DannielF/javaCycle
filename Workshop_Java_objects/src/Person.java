@@ -1,4 +1,3 @@
-package WorkShop_Java_objects;
 import java.time.LocalDate;
 
 /**
@@ -23,7 +22,7 @@ class Person {
      *
      * @param dateOfBirth year-month-day
      * @param gender gender person (M, F)
-    * */
+     * */
     public Person(String name, String firstLastName, String secondLastName, LocalDate dateOfBirth, float height, String gender){
         this.name = name;
         this.firstLastName = firstLastName;
@@ -36,14 +35,14 @@ class Person {
     /**
      * getter
      * @see #getName() - return people name
-    * */
+     * */
     public String getName() {
         return name;
     }
 
     /**
      * setter
-     * @see #setName(String) - set a new name 
+     * @see #setName(String) - set a new name
      * */
     public void setName(String name) {
         this.name = name;
@@ -59,7 +58,7 @@ class Person {
 
     /**
      * setter
-     * @see #setGender(String)  - set a new gender 
+     * @see #setGender(String)  - set a new gender
      * */
     public void setGender(String gender) {
         this.gender = gender;

@@ -1,5 +1,3 @@
-package WorkShop_Java_objects;
-
 import java.util.ArrayList;
 
 /**
