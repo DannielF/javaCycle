@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Welcome to the Java world.
+Welcome to the Java world
 
 ## Folder Structure
 
