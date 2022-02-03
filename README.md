@@ -4,7 +4,7 @@
 
 Welcome to the workshop N° 1 Java Objects
 
-These are the task that we need to do:
+These are the task that I completed:
 
 1. create 3 new classes with public, private and protected attributes
 2. also add public, private and protected methods
