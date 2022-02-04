@@ -15,6 +15,25 @@ These are the task that I completed:
 5. The program must be run indefinitely until the user decides to stop the program.
 6. the workshop must be delivery to the next [Link](https://forms.gle/RvYhVpPptLyogWyT7)
 
+## Structure
+
+#### abstract classes
+    * SpaceShip
+    * ShuttleVehicle -- has the two abstract methods required in 2.
+    * UnmannedShip
+    * MannedShip
+
+#### Interfaces
+    * IshuttleShip
+    * IunmannedShip
+    * ImannedShip
+
+#### Extra spaceShips
+    * ApoloII
+    * DragonXX
+    * SaturnXIII
+    * VikingV
+
 ## Folder Structure
 
 The workspace contains two folders by default, where:
