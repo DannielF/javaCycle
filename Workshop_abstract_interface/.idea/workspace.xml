@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3316cc05-bdf3-4c3d-b943-b6da7aa09ed8" name="Changes" comment="Update workspace.xml">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/danny.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApoloII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DragonXX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ImannedShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IshuttleShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IunmannedShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MannedShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SaturnXII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShuttleVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpaceShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnmannedShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VikingV.java" afterDir="false" />
+    <list default="true" id="3316cc05-bdf3-4c3d-b943-b6da7aa09ed8" name="Changes" comment="abstract and interfaces finished, update README.md, main class working">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApoloII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApoloII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DragonXX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DragonXX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MannedShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MannedShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SaturnXII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SaturnXII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShuttleVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShuttleVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnmannedShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnmannedShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VikingV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VikingV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +58,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpaceShip" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="src.Main" />
+      <module name="Workshop_abstract_interface" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,6 +134,7 @@
     <MESSAGE value="Add VideoGame class" />
     <MESSAGE value="Add House class" />
     <MESSAGE value="Update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml" />
+    <MESSAGE value="abstract and interfaces finished, update README.md, main class working" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract and interfaces finished, update README.md, main class working" />
   </component>
 </project>

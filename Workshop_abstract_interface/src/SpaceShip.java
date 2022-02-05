@@ -38,6 +38,16 @@ abstract class SpaceShip {
     }
 
     /**
+     * Show the attributes of the SpaceShip
+     */
+    void ShowDataSpaceShip(){
+        System.out.println("\tSpaceShip Name: " + name + " - " + " Country Origin: " + country);
+        System.out.println("\tSpaceShip Weight: " + weight + " - " + " SpaceShip Height: " + height);
+        System.out.println("\tSpaceShip N° Engines: " + engines + " - " + " SpaceShip TypeFuel: " + typeFuel);
+        System.out.println("\tTons of Thrust: " + thrust);
+    }
+
+    /**
      * Getter
      * @return
      * the name of the spaceship
@@ -49,7 +59,7 @@ abstract class SpaceShip {
     /**
      * Setter --
      * Update the name of the spaceship
-     * @param name
+     * @param name newName
      */
     public void setName(String name) {
         this.name = name;
@@ -67,7 +77,7 @@ abstract class SpaceShip {
     /**
      * Setter
      * Update the country
-     * @param country
+     * @param country newCountry
      */
     public void setCountry(String country) {
         this.country = country;
@@ -85,7 +95,7 @@ abstract class SpaceShip {
     /**
      * Setter
      * Update the weight
-     * @param weight
+     * @param weight newWeight
      */
     public void setWeight(double weight) {
         this.weight = weight;
@@ -103,7 +113,7 @@ abstract class SpaceShip {
     /**
      * Setter
      * Update the height
-     * @param height
+     * @param height newHeight
      */
     public void setHeight(double height) {
         this.height = height;
@@ -121,7 +131,7 @@ abstract class SpaceShip {
     /**
      * Setter
      * Update the type of fuel
-     * @param typeFuel
+     * @param typeFuel newTypeFuel
      */
     public void setTypeFuel(String typeFuel) {
         this.typeFuel = typeFuel;
@@ -139,7 +149,7 @@ abstract class SpaceShip {
     /**
      * Setter
      * Update the number of engines
-     * @param engines
+     * @param engines newEngines
      */
     public void setEngines(int engines) {
         this.engines = engines;
@@ -157,7 +167,7 @@ abstract class SpaceShip {
     /**
      * Setter
      * Update the thrust
-     * @param thrust
+     * @param thrust newThrust
      */
     public void setThrust(double thrust) {
         this.thrust = thrust;

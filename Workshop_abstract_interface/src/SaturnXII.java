@@ -79,4 +79,13 @@ class SaturnXII extends ShuttleVehicle{
     public void showStatus(){
         System.out.println("Sistemas en línea y todo funcionando");
     }
+
+    /**
+     * Override polymorphism
+     * Show the attributes of the SpaceShip
+     */
+    @Override
+    void ShowDataSpaceShip() {
+        super.ShowDataSpaceShip();
+    }
 }

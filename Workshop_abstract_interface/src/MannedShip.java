@@ -78,4 +78,14 @@ abstract class MannedShip extends SpaceShip implements ImannedShip{
     public void evasiveManeuvers() {
         System.out.println("Ejecutando maniobras evasivas");
     }
+
+    /**
+     * Override polymorphism
+     * Show the attributes of the SpaceShip
+     */
+    @Override
+    void ShowDataSpaceShip() {
+        super.ShowDataSpaceShip();
+        System.out.println("\tMission Purpose: " + purpose + " - " + " Capacity of the SpaceShip: " + capacity + " - " + " Number of crew: " + numberOfCrew);
+    }
 }

@@ -79,4 +79,13 @@ public class DragonXX extends ShuttleVehicle{
     public void activateExtraEngines(){
         System.out.println("Activando motores auxiliares");
     }
+
+    /**
+     * Override polymorphism
+     * Show the attributes of the SpaceShip
+     */
+    @Override
+    void ShowDataSpaceShip() {
+        super.ShowDataSpaceShip();
+    }
 }

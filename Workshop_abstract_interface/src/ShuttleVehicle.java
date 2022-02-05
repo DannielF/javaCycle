@@ -67,4 +67,14 @@ abstract class ShuttleVehicle extends SpaceShip implements IshuttleShip{
     public void downloadFromShip() {
         System.out.println("Se esta bajando la carga de la lanzadera");
     }
+
+    /**
+     * Override polymorphism
+     * Show the attributes of the SpaceShip
+     */
+    @Override
+    void ShowDataSpaceShip() {
+        super.ShowDataSpaceShip();
+        System.out.println("\tType of Load: " + typeLoad + " - " + " Weight of the Load: " + weightLoad);
+    }
 }

@@ -80,4 +80,13 @@ class ApoloII extends MannedShip{
     public void turnOnAutopilot(){
         System.out.println("Piloto automático activado");
     }
+
+    /**
+     * Override polymorphism
+     * Show the attributes of the SpaceShip
+     */
+    @Override
+    void ShowDataSpaceShip() {
+        super.ShowDataSpaceShip();
+    }
 }

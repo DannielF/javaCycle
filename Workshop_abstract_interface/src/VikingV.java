@@ -71,4 +71,13 @@ class VikingV extends UnmannedShip {
     public void sendDataToEarth(){
         System.out.println("Datos enviados a la Tierra");
     }
+
+    /**
+     * Override polymorphism
+     * Show the attributes of the SpaceShip
+     */
+    @Override
+    void ShowDataSpaceShip() {
+        super.ShowDataSpaceShip();
+    }
 }

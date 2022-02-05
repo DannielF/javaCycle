@@ -15,6 +15,27 @@ These are the task that I completed:
 5. The program must be run indefinitely until the user decides to stop the program.
 6. the workshop must be delivery to the next [Link](https://forms.gle/RvYhVpPptLyogWyT7)
 
+
+## How to run the program
+
+*** Welcome to crafting spaceships ***
+
+**Please follow the instructions below**
+- Write all the attributes of the spaceships separate by a whitespace.
+- Option 1 will create a new SpaceShip and option 2 will print the info of each SpaceShip
+- Basic attributes:
+  * option, typeSpaceShip, name, country, weight, height, typeFuel, engines, thrust
+- If you want to build a shuttleVehicle add this:
+  * typeLoad, weightLoad
+- If you want to build a UnmannedShip add this:
+  * typeShip, photoVCells, travelSpeed
+- If you want to build a mannedShip add this:
+  * purpose, capacity, numberOfCrew
+- Example
+  * 1 shuttlevehicle SaturnV USA 2900 100 queroseno 3 3500 satellite 500
+  * 1 unmmanedship DragonXX EU 1200 20 monometilhidracina 4 2 ATV false 2000
+
+
 ## Structure
 
 #### abstract classes

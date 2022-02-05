@@ -69,4 +69,15 @@ abstract class UnmannedShip extends  SpaceShip implements IunmannedShip{
     public void supplyShip() {
         System.out.println("Entregando recursos");
     }
+
+    /**
+     * Override polymorphism
+     * Show the attributes of the SpaceShip
+     */
+    @Override
+    void ShowDataSpaceShip() {
+        super.ShowDataSpaceShip();
+        System.out.println("\tType of SpaceShip: " + typeShip + " - " + " The SpaceShip has photovoltaic cells: " + photoVCells);
+        System.out.println("\tTravel Speed of the SpaceShip: " + travelSpeed);
+    }
 }
