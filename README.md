@@ -1,13 +1,13 @@
-# javaCycle
+# SQL with MySQL
 
 ## Getting Started
 
-Welcome to the Java world.
+Welcome to the SQL scripts for SQL workshop.
 
 ## Folder Structure
 
 The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+
 
