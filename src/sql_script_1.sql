@@ -296,6 +296,7 @@ insert into sale_has_product (sale_sale_id, product_prd_id) values (9, 5);
 insert into sale_has_product (sale_sale_id, product_prd_id) values (9, 2);
 insert into sale_has_product (sale_sale_id, product_prd_id) values (10, 3);
 insert into sale_has_product (sale_sale_id, product_prd_id) values (10, 4);
+insert into sale_has_product (sale_sale_id, product_prd_id) values (10, 8);
 
 
 -- -----------------------------------------------------
